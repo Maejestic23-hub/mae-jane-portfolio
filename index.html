@@ -1,109 +1,170 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
 
   <meta
     name="description"
-    content="Portfolio of Mae Jane Mantawil — Graphic Designer and Digital Content Creator."
-  />
+    content="Mae Jane Mantawil — Graphic Designer and Digital Content Creator."
+  >
 
-  <meta name="theme-color" content="#2e2723" />
+  <meta
+    name="theme-color"
+    content="#2e2723"
+  >
 
-  <title>Mae Jane Mantawil | Graphic Designer & Digital Content Creator</title>
+  <title>
+    Mae Jane Mantawil | Graphic Designer & Digital Content Creator
+  </title>
 
+  <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    rel="preconnect"
+    href="https://fonts.gstatic.com"
+    crossorigin
+  >
 
   <link
     href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap"
     rel="stylesheet"
   >
 
-  <link rel="stylesheet" href="style.css" />
+  <!-- Main CSS -->
+  <link
+    rel="stylesheet"
+    href="style.css"
+  >
 
-  <!-- IMAGE DISPLAY FIX -->
+  <!-- ==================================================
+       PORTFOLIO IMAGE FIX
+       Keeps the complete artwork visible.
+  =================================================== -->
+
   <style>
-    /* Portfolio image containers */
+
     .project-visual {
       width: 100%;
       height: 420px !important;
       padding: 20px !important;
+
       overflow: hidden;
+
       display: flex !important;
       align-items: center;
       justify-content: center;
+
       background: #f7f5f1;
+
       box-sizing: border-box;
     }
 
-    /* Portfolio images */
+
     .project-visual img {
       width: 100% !important;
       height: 100% !important;
+
       max-width: 100%;
       max-height: 100%;
+
       object-fit: contain !important;
       object-position: center;
+
       display: block;
     }
 
-    /* Wide projects */
+
     .project-wide .project-visual {
       height: 460px !important;
     }
 
-    /* Keep project cards clean */
+
     .project {
       overflow: hidden;
     }
 
-    /* Mobile */
+
     @media (max-width: 768px) {
+
       .project-visual,
       .project-wide .project-visual {
         height: 350px !important;
         padding: 15px !important;
       }
+
     }
 
+
     @media (max-width: 480px) {
+
       .project-visual,
       .project-wide .project-visual {
         height: 300px !important;
         padding: 12px !important;
       }
+
     }
+
   </style>
+
 </head>
 
 
 <body>
 
-  <!-- =========================
+
+  <!-- ==================================================
        NAVIGATION
-  ========================== -->
+  =================================================== -->
 
   <header class="nav-wrap">
 
     <nav class="nav container">
 
-      <a class="brand" href="#home">
+      <a
+        class="brand"
+        href="#home"
+      >
         MJ<span>.</span>
       </a>
 
-      <button class="menu-btn" aria-label="Open menu">
+
+      <button
+        class="menu-btn"
+        aria-label="Open menu"
+      >
         ☰
       </button>
 
+
       <div class="nav-links">
 
-        <a href="#about">About</a>
-        <a href="#work">Work</a>
-        <a href="#services">Services</a>
-        <a href="#skills">Skills</a>
-        <a href="#contact">Contact</a>
+        <a href="#about">
+          About
+        </a>
+
+        <a href="#work">
+          Work
+        </a>
+
+        <a href="#services">
+          Services
+        </a>
+
+        <a href="#skills">
+          Skills
+        </a>
+
+        <a href="#contact">
+          Contact
+        </a>
 
       </div>
 
@@ -112,14 +173,18 @@
   </header>
 
 
+
   <main>
 
 
-    <!-- =========================
+    <!-- ==================================================
          HERO
-    ========================== -->
+    =================================================== -->
 
-    <section id="home" class="hero container">
+    <section
+      id="home"
+      class="hero container"
+    >
 
       <div class="hero-copy">
 
@@ -127,39 +192,67 @@
           GRAPHIC DESIGNER · DIGITAL CONTENT CREATOR
         </p>
 
+
         <h1>
           Designing visuals that
-          <em>communicate, connect & inspire.</em>
+          <em>
+            communicate, connect & inspire.
+          </em>
         </h1>
 
+
         <p class="lead">
-          Hi, I'm <strong>Mae Jane Mantawil</strong> —
-          a creative and highly organized professional who
-          turns ideas into clear, meaningful, and engaging
-          visual content.
+
+          Hi, I'm
+          <strong>
+            Mae Jane Mantawil
+          </strong>
+          —
+          a creative and highly organized professional
+          who turns ideas into clear, meaningful,
+          and engaging visual content.
+
         </p>
+
 
         <div class="actions">
 
-          <a class="btn primary" href="#work">
+          <a
+            class="btn primary"
+            href="#work"
+          >
             View My Work
           </a>
 
-          <a class="btn secondary" href="#contact">
+
+          <a
+            class="btn secondary"
+            href="#contact"
+          >
             Let's Work Together
           </a>
 
         </div>
 
+
         <div class="mini-proof">
 
-          <span>✦ Graphic Design</span>
-          <span>✦ Social Media</span>
-          <span>✦ Ministry & Education</span>
+          <span>
+            ✦ Graphic Design
+          </span>
+
+          <span>
+            ✦ Social Media
+          </span>
+
+          <span>
+            ✦ Ministry & Education
+          </span>
 
         </div>
 
       </div>
+
 
 
       <div class="hero-art">
@@ -169,16 +262,22 @@
           <b>IDEAS</b>
         </div>
 
+
         <div class="art-card card-b">
           MAKE<br>
           <b>IT MEANINGFUL.</b>
         </div>
 
+
         <div class="art-orbit"></div>
 
+
         <div class="art-tag">
-          MAE JANE<br>
-          <small>PORTFOLIO</small>
+          MAE JANE
+          <br>
+          <small>
+            PORTFOLIO
+          </small>
         </div>
 
       </div>
@@ -187,11 +286,14 @@
 
 
 
-    <!-- =========================
+    <!-- ==================================================
          ABOUT
-    ========================== -->
+    =================================================== -->
 
-    <section id="about" class="section container">
+    <section
+      id="about"
+      class="section container"
+    >
 
       <div class="section-heading">
 
@@ -199,12 +301,16 @@
           01 · ABOUT
         </p>
 
+
         <h2>
           A creative mind with a
-          <em>purpose.</em>
+          <em>
+            purpose.
+          </em>
         </h2>
 
       </div>
+
 
 
       <div class="about-grid">
@@ -212,9 +318,11 @@
         <div>
 
           <p class="big-text">
+
             I create designs that are not only beautiful,
             but meaningful, intentional, and made to
             communicate clearly.
+
           </p>
 
         </div>
@@ -223,20 +331,26 @@
         <div class="body-copy">
 
           <p>
+
             I’m Mae Jane Mantawil, a graphic designer and
-            digital content creator with experience in graphic
-            design, digital content creation, administrative
-            support, records management, education, and
-            church ministry.
+            digital content creator with experience in
+            graphic design, digital content creation,
+            administrative support, records management,
+            education, and church ministry.
+
           </p>
 
+
           <p>
+
             I enjoy turning ideas into visual content that
             communicates clearly and connects with people.
             I create social media graphics, posters,
-            invitations, presentations, Bible and children's
-            ministry materials, educational activities,
-            promotional visuals, and other digital content.
+            invitations, presentations, Bible and
+            children's ministry materials, educational
+            activities, promotional visuals, and other
+            digital content.
+
           </p>
 
         </div>
@@ -247,13 +361,17 @@
 
 
 
-    <!-- =========================
+    <!-- ==================================================
          SELECTED WORK
-    ========================== -->
+    =================================================== -->
 
-    <section id="work" class="section work-section">
+    <section
+      id="work"
+      class="section work-section"
+    >
 
       <div class="container">
+
 
         <div class="section-heading split">
 
@@ -263,49 +381,77 @@
               02 · SELECTED WORK
             </p>
 
+
             <h2>
               Projects with
-              <em>purpose.</em>
+              <em>
+                purpose.
+              </em>
             </h2>
 
           </div>
 
 
           <p class="section-note">
-            A curated collection of visual work created to
-            communicate ideas, connect with audiences, and
-            bring brands and stories to life.
+
+            A curated collection of visual work created
+            to communicate ideas, connect with audiences,
+            and bring brands and stories to life.
+
           </p>
 
         </div>
 
 
 
-        <!-- FILTER BUTTONS -->
+        <!-- FILTERS -->
 
         <div class="filters">
 
-          <button class="filter active" data-filter="all">
+          <button
+            class="filter active"
+            data-filter="all"
+          >
             All
           </button>
 
-          <button class="filter" data-filter="ministry">
+
+          <button
+            class="filter"
+            data-filter="ministry"
+          >
             Ministry
           </button>
 
-          <button class="filter" data-filter="social">
+
+          <button
+            class="filter"
+            data-filter="social"
+          >
             Social Media
           </button>
 
-          <button class="filter" data-filter="events">
+
+          <button
+            class="filter"
+            data-filter="events"
+          >
             Events
           </button>
 
-          <button class="filter" data-filter="education">
+
+          <button
+            class="filter"
+            data-filter="education"
+          >
             Education
           </button>
 
-          <button class="filter" data-filter="branding">
+
+          <button
+            class="filter"
+            data-filter="branding"
+          >
             Branding
           </button>
 
@@ -313,38 +459,48 @@
 
 
 
-        <!-- =========================
+        <!-- ==================================================
              PORTFOLIO GRID
-        ========================== -->
+        =================================================== -->
 
         <div class="portfolio-grid">
 
 
-          <!-- RIPE 1 -->
 
-          <article class="project project-wide" data-category="social">
+          <!-- =========================
+               RIPE 1
+          ========================== -->
+
+          <article
+            class="project"
+            data-category="social"
+          >
 
             <div class="project-visual">
 
               <img
                 src="Ripe%201.jpeg"
-                alt="Ripe automotive product campaign design"
+                alt="Ripe automotive campaign design 1"
               >
 
             </div>
 
+
             <div class="project-info">
 
-              <span>SOCIAL MEDIA</span>
+              <span>
+                SOCIAL MEDIA
+              </span>
+
 
               <h3>
-                Ripe Automotive Product Campaign
+                Ripe Automotive Campaign 01
               </h3>
 
+
               <p>
-                Automotive product visuals designed for
-                clear, engaging, and campaign-focused
-                social media communication.
+                Automotive promotional artwork created
+                for digital and social media campaign use.
               </p>
 
             </div>
@@ -353,31 +509,40 @@
 
 
 
-          <!-- RIPE 2 -->
+          <!-- =========================
+               RIPE 2
+          ========================== -->
 
-          <article class="project" data-category="social">
+          <article
+            class="project"
+            data-category="social"
+          >
 
             <div class="project-visual">
 
               <img
                 src="Ripe%202.jpeg"
-                alt="Ripe automotive campaign visual"
+                alt="Ripe automotive campaign design 2"
               >
 
             </div>
 
+
             <div class="project-info">
 
-              <span>SOCIAL MEDIA</span>
+              <span>
+                SOCIAL MEDIA
+              </span>
+
 
               <h3>
-                Ripe Automotive Campaign Visual
+                Ripe Automotive Campaign 02
               </h3>
 
+
               <p>
-                Automotive campaign artwork developed
-                to highlight product benefits through bold,
-                high-impact visual communication.
+                Product-focused campaign visual designed
+                to communicate the automotive message clearly.
               </p>
 
             </div>
@@ -386,30 +551,40 @@
 
 
 
-          <!-- RIPE 3 -->
+          <!-- =========================
+               RIPE 3
+          ========================== -->
 
-          <article class="project" data-category="social">
+          <article
+            class="project"
+            data-category="social"
+          >
 
             <div class="project-visual">
 
               <img
                 src="Ripe%203.jpeg"
-                alt="Ripe automotive product visual"
+                alt="Ripe automotive campaign design 3"
               >
 
             </div>
 
+
             <div class="project-info">
 
-              <span>SOCIAL MEDIA</span>
+              <span>
+                SOCIAL MEDIA
+              </span>
+
 
               <h3>
-                Ripe Automotive Product Visual
+                Ripe Automotive Campaign 03
               </h3>
 
+
               <p>
-                Digital promotional artwork with a clean
-                and engaging product-focused layout.
+                Bold automotive promotional artwork
+                developed for digital communication.
               </p>
 
             </div>
@@ -418,30 +593,40 @@
 
 
 
-          <!-- RIPE 4 -->
+          <!-- =========================
+               RIPE 4
+          ========================== -->
 
-          <article class="project" data-category="social">
+          <article
+            class="project"
+            data-category="social"
+          >
 
             <div class="project-visual">
 
               <img
                 src="Ripe%204.jpeg"
-                alt="Ripe campaign visual 04"
+                alt="Ripe automotive campaign design 4"
               >
 
             </div>
 
+
             <div class="project-info">
 
-              <span>SOCIAL MEDIA</span>
+              <span>
+                SOCIAL MEDIA
+              </span>
+
 
               <h3>
-                Ripe Campaign Visual 04
+                Ripe Automotive Campaign 04
               </h3>
 
+
               <p>
-                Social media artwork created for product
-                promotion and visual storytelling.
+                Social media campaign artwork focused
+                on product presentation and messaging.
               </p>
 
             </div>
@@ -450,30 +635,40 @@
 
 
 
-          <!-- RIPE 5 -->
+          <!-- =========================
+               RIPE 5
+          ========================== -->
 
-          <article class="project" data-category="social">
+          <article
+            class="project"
+            data-category="social"
+          >
 
             <div class="project-visual">
 
               <img
                 src="Ripe%205.jpeg"
-                alt="Ripe campaign visual 05"
+                alt="Ripe automotive campaign design 5"
               >
 
             </div>
 
+
             <div class="project-info">
 
-              <span>SOCIAL MEDIA</span>
+              <span>
+                SOCIAL MEDIA
+              </span>
+
 
               <h3>
-                Ripe Campaign Visual 05
+                Ripe Automotive Campaign 05
               </h3>
 
+
               <p>
-                Branded product content designed for
-                online presentation and promotion.
+                Promotional campaign visual designed
+                for clear and engaging online presentation.
               </p>
 
             </div>
@@ -482,30 +677,40 @@
 
 
 
-          <!-- RIPE 6 -->
+          <!-- =========================
+               RIPE 6
+          ========================== -->
 
-          <article class="project project-wide" data-category="social">
+          <article
+            class="project"
+            data-category="social"
+          >
 
             <div class="project-visual">
 
               <img
                 src="Ripe%206.jpeg"
-                alt="Ripe campaign visual 06"
+                alt="Ripe automotive campaign design 6"
               >
 
             </div>
 
+
             <div class="project-info">
 
-              <span>SOCIAL MEDIA</span>
+              <span>
+                SOCIAL MEDIA
+              </span>
+
 
               <h3>
-                Ripe Campaign Visual 06
+                Ripe Automotive Campaign 06
               </h3>
 
+
               <p>
-                Promotional visual design combining
-                product imagery and campaign messaging.
+                Product campaign artwork created for
+                digital marketing and social content.
               </p>
 
             </div>
@@ -514,30 +719,40 @@
 
 
 
-          <!-- RIPE 7 -->
+          <!-- =========================
+               RIPE 7
+          ========================== -->
 
-          <article class="project" data-category="social">
+          <article
+            class="project"
+            data-category="social"
+          >
 
             <div class="project-visual">
 
               <img
                 src="Ripe%207.jpeg"
-                alt="Ripe campaign visual 07"
+                alt="Ripe automotive campaign design 7"
               >
 
             </div>
 
+
             <div class="project-info">
 
-              <span>SOCIAL MEDIA</span>
+              <span>
+                SOCIAL MEDIA
+              </span>
+
 
               <h3>
-                Ripe Campaign Visual 07
+                Ripe Automotive Campaign 07
               </h3>
 
+
               <p>
-                Additional campaign artwork created for
-                digital content and product promotion.
+                Additional campaign artwork created
+                for consistent automotive brand communication.
               </p>
 
             </div>
@@ -546,9 +761,14 @@
 
 
 
-          <!-- DETAIL MOCKUPS -->
+          <!-- =========================
+               DETAIL MOCKUPS
+          ========================== -->
 
-          <article class="project project-wide" data-category="branding">
+          <article
+            class="project project-wide"
+            data-category="branding"
+          >
 
             <div class="project-visual">
 
@@ -559,17 +779,22 @@
 
             </div>
 
+
             <div class="project-info">
 
-              <span>BRANDING</span>
+              <span>
+                BRANDING
+              </span>
+
 
               <h3>
                 Product Detail Mockups
               </h3>
 
+
               <p>
-                Presentation mockups showcasing product
-                details and visual branding.
+                Product presentation mockups created
+                to showcase details and visual branding.
               </p>
 
             </div>
@@ -578,9 +803,14 @@
 
 
 
-          <!-- LIFESTYLE 1 -->
+          <!-- =========================
+               LIFESTYLE IMAGES
+          ========================== -->
 
-          <article class="project" data-category="social">
+          <article
+            class="project"
+            data-category="social"
+          >
 
             <div class="project-visual">
 
@@ -591,17 +821,22 @@
 
             </div>
 
+
             <div class="project-info">
 
-              <span>SOCIAL MEDIA</span>
+              <span>
+                SOCIAL MEDIA
+              </span>
+
 
               <h3>
                 Lifestyle Campaign
               </h3>
 
+
               <p>
-                Lifestyle-focused visuals created to
-                present the product in an engaging setting.
+                Lifestyle-focused visual content created
+                for product presentation.
               </p>
 
             </div>
@@ -610,30 +845,40 @@
 
 
 
-          <!-- LIFESTYLE 2 -->
+          <!-- =========================
+               LIFESTYLE IMAGES 2
+          ========================== -->
 
-          <article class="project" data-category="social">
+          <article
+            class="project"
+            data-category="social"
+          >
 
             <div class="project-visual">
 
               <img
                 src="Lifestyle%20Images%202.jpg"
-                alt="Product lifestyle campaign 02"
+                alt="Product lifestyle campaign 2"
               >
 
             </div>
 
+
             <div class="project-info">
 
-              <span>SOCIAL MEDIA</span>
+              <span>
+                SOCIAL MEDIA
+              </span>
+
 
               <h3>
                 Lifestyle Campaign 02
               </h3>
 
+
               <p>
-                Additional lifestyle imagery designed
-                for digital product presentation.
+                Additional lifestyle artwork created
+                for digital product communication.
               </p>
 
             </div>
@@ -642,31 +887,40 @@
 
 
 
-          <!-- CREATIVE DESIGN 1 -->
+          <!-- =========================
+               DESIGN 1
+          ========================== -->
 
-          <article class="project" data-category="branding">
+          <article
+            class="project"
+            data-category="branding"
+          >
 
             <div class="project-visual">
 
               <img
                 src="1%20%281%29.png"
-                alt="Creative graphic design project 01"
+                alt="Graphic design project 1"
               >
 
             </div>
 
+
             <div class="project-info">
 
-              <span>BRANDING</span>
+              <span>
+                BRANDING
+              </span>
+
 
               <h3>
                 Creative Design 01
               </h3>
 
+
               <p>
-                Original graphic design exploring
-                composition, typography, and visual
-                communication.
+                Graphic design exploring composition,
+                typography, and visual communication.
               </p>
 
             </div>
@@ -675,30 +929,40 @@
 
 
 
-          <!-- CREATIVE DESIGN 2 -->
+          <!-- =========================
+               DESIGN 2
+          ========================== -->
 
-          <article class="project" data-category="branding">
+          <article
+            class="project"
+            data-category="branding"
+          >
 
             <div class="project-visual">
 
               <img
                 src="2%20%281%29.png"
-                alt="Creative graphic design project 02"
+                alt="Graphic design project 2"
               >
 
             </div>
 
+
             <div class="project-info">
 
-              <span>BRANDING</span>
+              <span>
+                BRANDING
+              </span>
+
 
               <h3>
                 Creative Design 02
               </h3>
 
+
               <p>
-                Graphic design concept focused on visual
-                balance and creative presentation.
+                Creative graphic design focused on
+                balance, layout, and visual presentation.
               </p>
 
             </div>
@@ -707,26 +971,36 @@
 
 
 
-          <!-- CREATIVE DESIGN 3 -->
+          <!-- =========================
+               DESIGN 3
+          ========================== -->
 
-          <article class="project" data-category="branding">
+          <article
+            class="project"
+            data-category="branding"
+          >
 
             <div class="project-visual">
 
               <img
                 src="3%20%281%29.png"
-                alt="Creative graphic design project 03"
+                alt="Graphic design project 3"
               >
 
             </div>
 
+
             <div class="project-info">
 
-              <span>BRANDING</span>
+              <span>
+                BRANDING
+              </span>
+
 
               <h3>
                 Creative Design 03
               </h3>
+
 
               <p>
                 Visual design concept created to
@@ -747,11 +1021,14 @@
 
 
 
-    <!-- =========================
+    <!-- ==================================================
          SERVICES
-    ========================== -->
+    =================================================== -->
 
-    <section id="services" class="section container">
+    <section
+      id="services"
+      class="section container"
+    >
 
       <div class="section-heading">
 
@@ -759,12 +1036,16 @@
           03 · SERVICES
         </p>
 
+
         <h2>
           How I can help
-          <em>you.</em>
+          <em>
+            you.
+          </em>
         </h2>
 
       </div>
+
 
 
       <div class="service-grid">
@@ -772,7 +1053,9 @@
 
         <div class="service">
 
-          <b>01</b>
+          <b>
+            01
+          </b>
 
           <h3>
             Graphic Design
@@ -786,9 +1069,12 @@
         </div>
 
 
+
         <div class="service">
 
-          <b>02</b>
+          <b>
+            02
+          </b>
 
           <h3>
             Social Media Design
@@ -802,9 +1088,12 @@
         </div>
 
 
+
         <div class="service">
 
-          <b>03</b>
+          <b>
+            03
+          </b>
 
           <h3>
             Ministry & Education
@@ -818,17 +1107,20 @@
         </div>
 
 
+
         <div class="service">
 
-          <b>04</b>
+          <b>
+            04
+          </b>
 
           <h3>
             Digital Content
           </h3>
 
           <p>
-            Short-form visual content, creative assets,
-            and content support for digital platforms.
+            Creative digital assets and visual content
+            designed for online platforms.
           </p>
 
         </div>
@@ -840,11 +1132,14 @@
 
 
 
-    <!-- =========================
+    <!-- ==================================================
          SKILLS
-    ========================== -->
+    =================================================== -->
 
-    <section id="skills" class="section skills-section">
+    <section
+      id="skills"
+      class="section skills-section"
+    >
 
       <div class="container skills-grid">
 
@@ -855,39 +1150,78 @@
             04 · SKILLS
           </p>
 
+
           <h2>
             Creative +
-            <em>organized.</em>
+            <em>
+              organized.
+            </em>
           </h2>
 
+
           <p class="body-copy">
+
             I bring visual creativity together with strong
             attention to detail, communication, documentation,
             and organization.
+
           </p>
 
         </div>
 
 
+
         <div class="skill-list">
 
-          <span>Canva</span>
-          <span>CapCut</span>
-          <span>Graphic Design</span>
-          <span>Social Media Management</span>
+          <span>
+            Canva
+          </span>
 
-          <span>Digital Content Creation</span>
-          <span>Photo Editing</span>
-          <span>Layout Design</span>
-          <span>Branding</span>
+          <span>
+            CapCut
+          </span>
 
-          <span>Documentation</span>
-          <span>Records Management</span>
-          <span>Administrative Support</span>
-          <span>Communication</span>
+          <span>
+            Graphic Design
+          </span>
+
+          <span>
+            Social Media Management
+          </span>
+
+          <span>
+            Digital Content Creation
+          </span>
+
+          <span>
+            Photo Editing
+          </span>
+
+          <span>
+            Layout Design
+          </span>
+
+          <span>
+            Branding
+          </span>
+
+          <span>
+            Documentation
+          </span>
+
+          <span>
+            Records Management
+          </span>
+
+          <span>
+            Administrative Support
+          </span>
+
+          <span>
+            Communication
+          </span>
 
         </div>
-
 
       </div>
 
@@ -895,11 +1229,13 @@
 
 
 
-    <!-- =========================
+    <!-- ==================================================
          EXPERIENCE
-    ========================== -->
+    =================================================== -->
 
-    <section class="section resume-section container">
+    <section
+      class="section resume-section container"
+    >
 
       <div class="resume-card">
 
@@ -910,17 +1246,22 @@
             05 · EXPERIENCE
           </p>
 
+
           <h2>
             More than design.
           </h2>
 
+
           <p>
+
             My background also includes administration,
             education, records and data work, bookkeeping,
             and church ministry support.
+
           </p>
 
         </div>
+
 
 
         <div class="roles">
@@ -944,11 +1285,17 @@
         </div>
 
 
+        <!--
+          CV LINK
+          We will replace this with your real CV file/link
+          after we confirm where your CV is stored.
+        -->
+
         <a
           class="btn light"
-          href="assets/Mae-Jane-Mantawil-CV.pdf"
+          href="#contact"
         >
-          Download My CV
+          Contact Me for My CV
         </a>
 
 
@@ -958,11 +1305,14 @@
 
 
 
-    <!-- =========================
+    <!-- ==================================================
          CONTACT
-    ========================== -->
+    =================================================== -->
 
-    <section id="contact" class="section contact container">
+    <section
+      id="contact"
+      class="section contact container"
+    >
 
 
       <p class="eyebrow">
@@ -971,26 +1321,37 @@
 
 
       <h2>
-        Have an idea?<br>
-        <em>Let's create it.</em>
+        Have an idea?
+        <br>
+        <em>
+          Let's create it.
+        </em>
       </h2>
 
 
       <p class="contact-copy">
+
         I'm open to creative projects, digital content work,
         collaborations, and opportunities where thoughtful
         design can make a difference.
+
       </p>
 
 
       <div class="contact-links">
 
 
-        <!-- REPLACE WITH YOUR REAL EMAIL -->
+        <!--
+          EMAIL
+          Replace the placeholder with your real email.
+        -->
 
-        <a href="mailto:YOUR-EMAIL@example.com">
+        <a
+          href="mailto:YOUR-EMAIL@example.com"
+        >
           YOUR-EMAIL@example.com
         </a>
+
 
 
         <!-- FACEBOOK -->
@@ -998,10 +1359,11 @@
         <a
           href="https://www.facebook.com/"
           target="_blank"
-          rel="noopener"
+          rel="noopener noreferrer"
         >
           Facebook
         </a>
+
 
 
         <!-- LINKEDIN -->
@@ -1009,10 +1371,11 @@
         <a
           href="https://www.linkedin.com/"
           target="_blank"
-          rel="noopener"
+          rel="noopener noreferrer"
         >
           LinkedIn
         </a>
+
 
 
         <!-- BEHANCE -->
@@ -1020,7 +1383,7 @@
         <a
           href="https://www.behance.net/"
           target="_blank"
-          rel="noopener"
+          rel="noopener noreferrer"
         >
           Behance
         </a>
@@ -1029,8 +1392,12 @@
       </div>
 
 
+
       <p class="footer-note">
-        © 2026 Mae Jane Mantawil. Designed with intention.
+
+        © 2026 Mae Jane Mantawil.
+        Designed with intention.
+
       </p>
 
 
@@ -1041,10 +1408,13 @@
 
 
 
-  <!-- JAVASCRIPT -->
+  <!-- ==================================================
+       JAVASCRIPT
+  =================================================== -->
 
   <script src="script.js"></script>
 
 
 </body>
+
 </html>
