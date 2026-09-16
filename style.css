@@ -1237,3 +1237,58 @@ select {
   }
 
 }
+
+/* About Highlights */
+
+.about-highlights {
+  margin-top: 55px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 18px;
+}
+
+.highlight {
+  padding: 25px 20px;
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  background: rgba(255,255,255,.45);
+  transition: .3s ease;
+}
+
+.highlight:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow);
+}
+
+.highlight span {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  color: var(--blue);
+  margin-bottom: 15px;
+}
+
+.highlight h3 {
+  margin: 0 0 8px;
+  font-size: 17px;
+}
+
+.highlight p {
+  margin: 0;
+  font-size: 13px;
+  line-height: 1.6;
+  opacity: .65;
+}
+
+@media(max-width:850px) {
+  .about-highlights {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media(max-width:560px) {
+  .about-highlights {
+    grid-template-columns: 1fr;
+  }
+}
