@@ -1292,3 +1292,21 @@ select {
     grid-template-columns: 1fr;
   }
 }
+
+/* Keep profile photo contained inside the Hero */
+
+.hero {
+  overflow: hidden;
+}
+
+.hero-art.profile-art {
+  overflow: hidden;
+}
+
+.profile-frame {
+  height: 430px;
+}
+
+.profile-label {
+  bottom: 25px;
+}
