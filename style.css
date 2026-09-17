@@ -1310,3 +1310,187 @@ select {
 .profile-label {
   bottom: 25px;
 }
+
+/* =========================================================
+   VIDEO EDITING PORTFOLIO
+========================================================= */
+
+.video-section-intro {
+  margin: 60px 0 30px;
+  padding: 36px;
+  background: rgba(216, 199, 176, 0.22);
+  border: 1px solid var(--line);
+  border-radius: 24px;
+}
+
+.video-section-intro h3 {
+  margin: 0 0 12px;
+  font-family: "Playfair Display", serif;
+  font-size: clamp(28px, 4vw, 44px);
+  line-height: 1.15;
+}
+
+.video-section-intro h3 em {
+  font-weight: 600;
+}
+
+.video-section-intro p:last-child {
+  max-width: 720px;
+  margin: 0;
+  color: rgba(46, 39, 35, 0.72);
+}
+
+
+/* VIDEO CARD */
+
+.video-project {
+  min-width: 0;
+}
+
+
+/* VIDEO AREA */
+
+.video-visual {
+  position: relative;
+  padding: 0 !important;
+  overflow: hidden !important;
+
+  background: #171411 !important;
+
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 18px;
+}
+
+
+/* VIDEO PLAYER */
+
+.video-visual video {
+  width: 100%;
+  height: 100%;
+
+  display: block;
+
+  object-fit: contain;
+
+  background: #171411;
+}
+
+
+/* VIDEO BADGE */
+
+.video-badge {
+  position: absolute;
+
+  top: 14px;
+  right: 14px;
+
+  padding: 7px 12px;
+
+  border-radius: 999px;
+
+  background: rgba(46, 39, 35, 0.88);
+
+  color: #ffffff;
+
+  font-size: 10px;
+  font-weight: 700;
+
+  letter-spacing: 0.08em;
+
+  pointer-events: none;
+}
+
+
+/* VIDEO INFORMATION */
+
+.video-project .project-info {
+  padding-top: 18px;
+}
+
+.video-project .project-info span {
+  display: block;
+
+  margin-bottom: 7px;
+
+  font-size: 10px;
+  font-weight: 700;
+
+  letter-spacing: 0.12em;
+}
+
+.video-project .project-info h3 {
+  margin-bottom: 8px;
+}
+
+.video-project .project-info p {
+  color: rgba(46, 39, 35, 0.70);
+}
+
+
+/* HOVER EFFECT */
+
+.video-project .video-visual {
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.video-project:hover .video-visual {
+  transform: translateY(-5px);
+  box-shadow: var(--soft-shadow);
+}
+
+
+/* =========================================================
+   RESPONSIVE VIDEO
+========================================================= */
+
+@media (max-width: 900px) {
+
+  .video-section-intro {
+    margin-top: 45px;
+    padding: 30px;
+  }
+
+}
+
+
+@media (max-width: 700px) {
+
+  .video-section-intro {
+    margin-top: 35px;
+    padding: 24px;
+
+    border-radius: 18px;
+  }
+
+  .video-visual {
+    height: 380px !important;
+  }
+
+}
+
+
+@media (max-width: 480px) {
+
+  .video-section-intro {
+    padding: 20px;
+  }
+
+  .video-visual {
+    height: 340px !important;
+  }
+
+  .video-badge {
+    top: 10px;
+    right: 10px;
+
+    padding: 6px 9px;
+
+    font-size: 9px;
+  }
+
+}
