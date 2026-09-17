@@ -1648,9 +1648,13 @@ select {
 /* IMPORTANT:
    Keep it hidden even when hovering while playing */
 
+.video-visual.is-playing .video-play-button {
+  opacity: 0;
+  pointer-events: none;
+}
+
 .video-visual.is-playing:hover .video-play-button {
   opacity: 0;
-
   pointer-events: none;
 }
 
